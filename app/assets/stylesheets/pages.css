@@ -59,13 +59,6 @@ p, a {
   margin-right: 40px;
 }
     
-.welcome-img {
-  width: 700px;
-  left: 30%;
-  position: absolute;
-  bottom: 50px;
-}
-    
 footer {
   background-color: #fff;
   height: 50px;
@@ -91,4 +84,27 @@ a {
 a:hover {
   text-decoration: underline;
 }
-  
+
+.container-catalog {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.description-catalog {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.catalog-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.catalog-image img {
+  max-width: 100%;
+  max-height: 100%;
+}
