@@ -1,0 +1,94 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0; 
+}
+    
+body {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+    
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color:#ffffff;
+  height: 100px;
+  width: 100%;
+}
+  
+nav ul li {
+  color: #3d337b;
+  text-align: center;
+  float: left; 
+  margin: 0 10px;
+  font-size: 24px;
+}
+    
+.name {
+  color: #3d337b;
+  text-align: center;
+  float: right;
+  margin: 0 10px;
+  padding: 40px;
+  font-size: 24px;
+}  
+    
+.clear {
+  clear: both;
+}
+    
+h1 {
+  font-size: 80px;
+  color:#3d337b;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-top: 20px;
+}
+    
+main {
+  flex-grow: 1;
+}
+    
+p, a {
+  font-size: 25px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+    
+.welcome-img {
+  width: 700px;
+  left: 30%;
+  position: absolute;
+  bottom: 50px;
+}
+    
+footer {
+  background-color: #fff;
+  height: 50px;
+}
+    
+.first-app {
+  text-align: left;
+  width: 70%;
+  margin: 40px;
+}
+  
+.first-app img {
+  width: 50%;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+  
+a {
+  color: #3d337b;
+  text-decoration: none;
+}
+  
+a:hover {
+  text-decoration: underline;
+}
+  
