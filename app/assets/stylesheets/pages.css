@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #f1fbff;
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -15,7 +15,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color:#ffffff;
+  background-color:#f3f1ea;
   height: 100px;
   width: 100%;
   border-bottom: 1px solid #ccc;
@@ -23,7 +23,7 @@ body {
 }
 
 nav ul li {
-  color: #3d337b;
+  color: #2d2e2e;
   text-align: center;
   float: left; 
   margin: 0 10px;
@@ -31,12 +31,16 @@ nav ul li {
   list-style-type: none;
 }
 
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
 .name {
-  color: #3d337b;
+  color: #2d2e2e;
   text-align: center;
   float: right;
   margin: 0 10px;
-  padding: 40px;
   font-size: 24px;
 }  
     
@@ -46,7 +50,7 @@ nav ul li {
     
 h1 {
   font-size: 80px;
-  color:#3d337b;
+  color:#2d2e2e;
   margin-left: 40px;
   margin-right: 40px;
   padding-top: 10px;
@@ -64,8 +68,8 @@ p {
 
 a {
   font-size: 25px;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
     
 footer {
@@ -73,20 +77,20 @@ footer {
   height: 50px;
 }
     
-.first-app {
+.app {
   text-align: left;
   width: 70%;
   margin: 40px;
 }
   
-.first-app img {
+.app img {
   width: 50%;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
   
 a {
-  color: #3d337b;
+  color: #2d2e2e;
   text-decoration: none;
 }
   
@@ -126,4 +130,17 @@ a:hover {
 .greetings-two p {
   font-size: 20px;
   margin-top: 20px;
+}
+
+.logo {
+  margin-left: 40px;
+}
+
+.logo img {
+  height: 80px;
+}
+
+nav ul li a img {
+  height: 40px;
+  padding-right: 20px;
 }
