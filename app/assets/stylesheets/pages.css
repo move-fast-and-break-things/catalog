@@ -51,7 +51,6 @@ nav ul {
 h1 {
   font-size: 80px;
   color:#2d2e2e;
-  margin-left: 40px;
   margin-right: 40px;
   padding-top: 10px;
 }
@@ -62,7 +61,6 @@ main {
 
 p {
   font-size: 27px;
-  margin-left: 40px;
   margin-right: 40px;
 }
 
@@ -76,19 +74,35 @@ footer {
   background-color: #fff;
   height: 50px;
 }
-    
-.app {
-  text-align: left;
-  width: 70%;
-  margin: 40px;
+
+.catalog-list {
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
 }
-  
+
+.app {
+  width: 33.33%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
 .app img {
-  width: 50%;
-  border-radius: 5px;
+  max-width: 100%;
+  height: auto;
+  display: block;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
-  
+
+.app p {
+  margin: 0px;
+  font-size: 18px
+}
+
+h3 {
+  font-size: 20px;
+}
+
 a {
   color: #2d2e2e;
   text-decoration: none;
@@ -102,7 +116,7 @@ a:hover {
   display: flex;
   max-width: 100%;
   margin: 0 auto;
-  padding: 20px;
+  padding: 60px;
 }
 
 .description-catalog {
