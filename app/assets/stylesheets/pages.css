@@ -73,6 +73,8 @@ a {
   font-size: 25px;
   margin-left: 10px;
   margin-right: 10px;
+  color: #2d2e2e;
+  text-decoration: none;
 }
     
 footer {
@@ -107,11 +109,6 @@ footer {
 h3 {
   font-size: 20px;
 }
-
-a {
-  color: #2d2e2e;
-  text-decoration: none;
-}
   
 a:hover {
   text-decoration: underline;
@@ -122,6 +119,9 @@ a:hover {
   max-width: 100%;
   margin: 0 auto;
   padding: 60px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+  position: relative;
 }
 
 .description-catalog {
@@ -192,6 +192,16 @@ nav ul li a img {
 
 .values-container {
   padding: 60px;
+  background-color: #fff;
+}
+
+.values-container h2 {
+  font-size: 44px;
+}
+
+.values-container li {
+  font-size: 20px;
+  padding-top: 10px;
 }
 
 .content-container {
@@ -219,4 +229,10 @@ nav ul li a img {
 
 .join-button:hover {
   background-color: #e57b00;
+}
+
+.catalog-list {
+  background-color: #fff;
+  z-index: 1;
+  position: relative;
 }
