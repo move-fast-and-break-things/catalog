@@ -17,7 +17,9 @@
   <div class="catalog-list">
     <div class="app">
         <img src="/assets/Minerva1.png" alt="App 1" />
-        <a href="#"><h3>Minerva</h3></a>
+        <%= link_to project_a_path do%>
+          <h3>Minerva</h3>
+        <% end %>
         <p>GPT-powered Discord bot built to help students learn software development</p>
     </div>
 
