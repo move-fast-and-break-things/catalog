@@ -273,3 +273,11 @@ nav ul li a img {
   padding-left: 80px;
 }
 
+.instruction-container h2 {
+  font-size: 44px;
+}
+
+.instruction-container h3 {
+  font-size: 40px;
+  padding-top: 20px;
+}
