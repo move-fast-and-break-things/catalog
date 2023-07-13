@@ -2,7 +2,7 @@
 
 The Move Fast and Brake Things Club's Project Catalog is a web application built with Ruby on Rails that allows our programming club to showcase and organize the projects undertaken by its members.
 
-![This is an image](/assets/project-view.png)
+![This is an image](/screenshots/project-view.png)
 
 ## Prerequisites
 
