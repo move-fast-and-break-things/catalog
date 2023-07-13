@@ -1,9 +1,43 @@
 <main>
   <div class="main-container">
+    <div class="about-container">
+      <div class="about-text">
         <h1>Minerva</h1>
         <p>Minerva is a GPT-powered Discord bot built to help students learn software development.</p>
-        <p>
-            <a href="https://github.com/move-fast-and-break-things/minerva">GitHub Repository</a>
-        </p>
+        <div class=github-link>
+            <h3>
+                <a href="https://github.com/move-fast-and-break-things/minerva">GitHub Repository</a>
+            <h3>
+        </div>
+      </div>
+      <div class="about-image">
+        <img src="/assets/Minerva1.png" alt="Project Image">
+      </div>
+    </div>  
+  </div>  
+  
+  <div class="instruction-container">
+    <h2>How can I add Minerva to my Discord guild (server)?</h2>
+    <p>
+      The bot uses the gpt-3.5-turbo model from OpenAI, which costs $0.002 per 1K tokens (or roughly 750 common English words). You can use this online tokenizer from OpenAI to estimate how many tokens it will take to encode your text.
+
+      To run Minerva, you'll need to:
+    </p>
+    <ul>
+        <li>install poetry</li>
+        <li>create a Discord bot account and obtain the Discord bot token</li>
+        <li>create an OpenAI account and get the OpenAI token</li>
+        <li>obtain the id of the Discord guild (server) that you want to add the bot to</li>
+    </ul>
+    <p>After you have done this:</p>
+    <ol>
+      <li>Copy .env.example to .env.</li>
+      <li>Enter your Discord bot token, OpenAI API key, and Discord guild (server) id into .env. The bot will only function within this server.</li>
+      <li>In the terminal, navigate to the project dir and run:</li>
+    </ol>
+    <div>
+      <h4>poetry install</h4>
+      <h4>poetry run minerva</h4>
     </div>
+  </div>
 </main>

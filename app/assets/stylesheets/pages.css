@@ -236,3 +236,40 @@ nav ul li a img {
   z-index: 1;
   position: relative;
 }
+
+.github-link {
+  padding-top: 20px;
+}
+
+.instruction-container {
+  padding: 60px;
+  background-color: #fff;
+}
+
+.instruction-container h2 {
+  font-size: 44px;
+}
+
+.instruction-container ul {
+  padding-left: 20px;
+}
+
+.instruction-container ol {
+  padding-left: 20px;
+}
+
+.instruction-container li {
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.instruction-container p {
+  padding-top: 20px;
+}
+
+.instruction-container h4 {
+  padding-top: 20px;
+  font-style: italic;
+  padding-left: 80px;
+}
+
