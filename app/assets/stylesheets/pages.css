@@ -281,3 +281,159 @@ nav ul li a img {
   font-size: 40px;
   padding-top: 20px;
 }
+
+@media (max-width: 767px) {
+  .container {
+    flex-direction: column;
+    height: auto;
+  }
+  
+  .name {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  
+  .logo img {
+    height: 60px;
+  }
+
+  .logo {
+    margin-right: 40px;
+  }
+  
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  nav ul li {
+    margin: 5px;
+  }
+  
+  nav ul li a img {
+    padding-left: 20px;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .description-catalog {
+    padding-right: 0;
+    padding-bottom: 25px;
+  }
+  
+  .catalog-image {
+    padding-top: 20px;
+  }
+  
+  h1 {
+    font-size: 30px;
+  }
+
+  .greetings p,
+  .greetings-two p {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .catalog-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .app {
+    width: 100%; /* Full width on mobile */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .app img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .app h3 {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  
+  .app p {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+
+  .about-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .about-text {
+    padding-bottom: 20px;
+  }
+  
+  .about-image {
+    text-align: center;
+  }
+  
+  .club-pic {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .values-container {
+    padding: 20px;
+  }
+  
+  .values-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .values-container p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .values-container ul {
+    padding-left: 20px;
+    list-style-type: disc;
+  }
+  
+  .values-container li {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .join-button {
+    padding: 8px 16px;
+    font-size: 16px;
+  }
+  
+  .content-container {
+    flex-direction: column;
+  }
+
+  p {
+    font-size: 20px;
+  }
+  
+  a {
+    font-size: 18px;
+  }
+
+  
+  
+}
