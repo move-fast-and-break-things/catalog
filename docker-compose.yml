@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  mfabt-site-sofia:
+    container_name: mfabt-site-sofia
+    build: .
+    restart: unless-stopped
+    ports:
+      - 127.0.0.1:3000:3000
